@@ -25,9 +25,9 @@ body {
 
 article {
   max-width: 42em;
-  margin-left: 1rem;
-  margin-top: 1.25rem;
-  margin-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
 }
 
 article header p {
@@ -36,11 +36,14 @@ article header p {
 
 article p {
   margin-bottom: 1.3rem;
+  margin-top: 0;
 }
 
 article ol {
   padding: 0;
   padding-left: 1rem;
+  margin-bottom: 1.3rem;
+  margin-top: 0;
 }
 
 article h1 {
@@ -50,21 +53,22 @@ article h1 {
 
 article header {
   border-bottom: 1px solid #999;
+  padding-top: 1.3rem;
 }
 
 article > p:last-child {
   border-bottom: 1px solid #999;
-  padding-bottom: 1em;
+  padding-bottom: 1.3rem;
 }
 
 header p {
   margin-top: 0;
-  margin-bottom: 1.3em;
+  margin-bottom: 1.3rem;
   font-style: italic;
 }
 
 header {
-  margin-bottom: 1.3em;
+  margin-bottom: 1.3rem;
 }
 
 blockquote {
@@ -86,8 +90,28 @@ blockquote {
     line-height: 1.4;
   }
 
-  h1, p {
-    margin: 0 0 1.4rem;
+  article p {
+    margin-bottom: 1.4rem;
+  }
+
+  article ol {
+    margin-bottom: 1.4rem;
+  }
+
+  article header {
+    padding-top: 1.4rem;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.4rem;
+  }
+
+  header p {
+    margin-bottom: 1.4rem;
+  }
+
+  header {
+    margin-bottom: 1.4rem;
   }
 
 }
@@ -99,8 +123,28 @@ blockquote {
     line-height: 1.5;
   }
 
-  h1, p {
-    margin: 0 0 1.5rem;
+  article p {
+    margin-bottom: 1.5rem;
+  }
+
+  article ol {
+    margin-bottom: 1.5rem;
+  }
+
+  article header {
+    padding-top: 1.5rem;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.5rem;
+  }
+
+  header p {
+    margin-bottom: 1.5rem;
+  }
+
+  header {
+    margin-bottom: 1.5rem;
   }
 
 }
